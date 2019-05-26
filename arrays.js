@@ -31,3 +31,6 @@ function removeElementFromBeginningOfArray(array){
     array.pop()
     return array 
   }
+  function removeElementFromEndOfArray(array){
+    return array.slice(0, array.length - 1)
+  }
